@@ -1,0 +1,13 @@
+1.relative path is relative to the program's current working directory
+2.it begins with the root folder
+3.It evaluates to an object representing the path C:/Users/Al
+4./ cannot join strings so, itll give an error
+5.os.get.cwd() is the oolder way of getting the current working directory as strings and os.chdir() is used as a function which can change the string value obtained using the Path.cwd() function
+6.A single period (“dot”) for a folder name is shorthand for “this directory.” Two periods (“dot-dot”) means “the parent folder.”
+7.dir name is eggs and the base name is spam.txt
+8.r - read mode
+  w - write mode
+  a - append mode
+9.Itll be wiped and overwritten
+10.read() function will return the contents of a file as a large string value whereas the function readlines() mathod will give a list of string values from the file, one string for each line
+
